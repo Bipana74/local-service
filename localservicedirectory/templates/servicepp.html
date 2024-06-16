@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Service Directory</title>
+    <style>
+        body {
+    background-color: #f8f9fa;
+}
+.card {
+    margin-bottom: 20px;
+}
+.list-group-item {
+    margin-bottom: 10px;
+}
+
+    </style>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Local Service Directory</h1>
+
+        <div class="card mb-4">
+            <div class="card-header">Add Service Provider</div>
+            <div class="card-body">
+                <form id="serviceForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service</label>
+                        <select id="service" class="form-control" required>
+                            <option value="Plumber">Plumber</option>
+                            <option value="Cleaner">Cleaner</option>
+                            <option value="Tutor">Tutor</option>
+                            <option value="Electrician">Electrician</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact">Contact</label>
+                        <input type="text" id="contact" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Provider</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="serviceList" class="list-group"></div>
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="abc.js"></script>
+</body>
+</html>

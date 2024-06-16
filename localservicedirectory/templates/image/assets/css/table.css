@@ -1,0 +1,22 @@
+table, th, td{
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+.right{
+    text-align: right;
+}
+th{
+    background: #fff;
+}
+/* tr:nth-child(2n){
+    background: rgb(128, 34, 0);
+} */
+
+
+tr:hover {
+    background: aqua;
+}
+
+.table{
+    overflow-x: scroll;
+}

@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.form{
+    overflow: hidden;
+    float:left;
+    width: 5600px;
+    padding: 1rem;
+
+}
+
+
+.container{
+    overflow: hidden;
+    padding: 3rem;
+    background-color: bisque;
+    max-width: 650px;
+    margin:auto;
+        
+}
+
+.admission{
+    float: left;
+    width: 50%;
+    padding: 1rem;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    color: black;
+}
+input[type="submit"]{
+    width: 100px;
+}
+label{
+    padding-bottom: 0.5rem;
+    display: block;
+}
+
+@media screen and (max-width:600px) {
+    .admission{
+        width: 100%;
+    }
+}
+.admission image{
+    height: auto;
+    image:cover
+}
